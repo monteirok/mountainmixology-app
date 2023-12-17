@@ -1,0 +1,13 @@
+.navContainer {
+    background-color: var(--dp-dark) !important;
+    border-bottom: .15rem solid var(--dp-accent-muted);
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.navLink {
+    color: var(--dp-light);
+}
+    .navLink:hover {
+        color: var(--dp-secondary);
+    }
