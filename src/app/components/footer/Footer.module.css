@@ -1,0 +1,10 @@
+.footerContainer {
+    padding: 1.5rem;
+    background-color: var(--dp-dark);
+    border-top: .15rem solid var(--dp-border);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: var(--dp-secondary);
+}

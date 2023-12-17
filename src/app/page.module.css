@@ -1,12 +1,24 @@
 .mainContainer {
-    /* background-color: var(--dp-primary) !important; */
-    color: var(--dp-light) !important;
-    /* border: 2px solid red; */
+    color: var(--dp-secondary) !important;
 }
 
-.head {
-    margin: 0;
+.headerContainer {
+
 }
+    .head {
+        margin: 0;
+    }
 .subHead {
-    margin-top: -4px !important;
+    margin-top: -.1rem !important;
+    font-size: 1.1rem !important;
+}
+
+.largeLogoContainer {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    /* height: auto; */
+    /* margin: auto; */
+    background-color: rgb(104, 37, 37);
+    border-radius: 40px;
 }

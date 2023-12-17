@@ -1,0 +1,18 @@
+.logoContainer {
+    width: fit-content;
+    margin: 5rem auto;
+    padding: .8rem;
+    background-color: rgba(126, 38, 38, 0.332);
+    border: .22rem solid var(--dp-dark);
+    border-radius: 40px;
+    transition: all 180ms ease-out;
+}
+    .logoContainer:hover {
+        scale: 1.02;
+        transition: all 250ms ease-in;
+    }
+
+.largeLogo {
+    max-width: 100%;
+    height: auto;
+}

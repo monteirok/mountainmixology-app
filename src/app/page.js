@@ -1,13 +1,30 @@
-import Navbar from './components/Navbar'
+import Navbar from './components/navbar/Navbar'
+import LargeLogo from './components/logo/LargeLogo'
+import LargeLogo2 from './components/logo/LargeLogo2'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import styles from './page.module.css'
+import Styles from './page.module.css'
+import logoStyles from './components/logo/Logo.module.css'
+import globalStyles from './globals.css'
 
 export default function Home() {
   return (
-    <div className={`${styles.mainContainer} container p-5`}>
-      <div className='text-center'>
-          <h1 className={`${styles.head} fw-bold`}>Welcome to Mountain Mixology!</h1>
-          <div className={`${styles.subHead} fs-4 fst-italic fw-light`}>⁃ Cocktail & Wine Catering ⁃</div>
+    <div className={`${Styles.mainContainer} container text-center`}>
+      {/* HEADER */}
+      <h1 className={`${Styles.head} fw-bold`}>
+        Welcome to Mountain Mixology!
+      </h1>
+      {/* SUB HEADER */}
+      <div className={`${Styles.subHead} fst-italic fw-light`}>
+        ⁃cocktail & wine catering⁃
+      </div>
+      {/* CONTENT */}
+      {/* large logo */}
+      <div className={`${logoStyles.logoContainer}`}>
+        <LargeLogo />
+      </div>
+      {/* large logo2 */}
+      <div className={`${logoStyles.logoContainer}`}>
+        <LargeLogo2 />
       </div>
     </div>
   )
