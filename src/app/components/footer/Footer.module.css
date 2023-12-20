@@ -1,5 +1,6 @@
 .footerContainer {
     padding: 1.5rem;
+    text-align: center;
     background-color: var(--dp-dark);
     border-top: .15rem solid var(--dp-border);
     border-top-left-radius: 4px;
@@ -8,3 +9,23 @@
     border-bottom-right-radius: 0px;
     color: var(--dp-secondary);
 }
+
+.instagramIcon {
+    transition: all 250ms ease-out;    
+}
+    .instagramIcon:hover {
+        scale: 1.1;
+        opacity: .7;
+        transition: all 250ms ease-in;    
+    }
+
+.mailIcon {
+    width: 2rem;
+    color: var(--dp-secondary);
+    transition: all 250ms ease-out;
+}
+    .mailIcon:hover {
+        scale: 1.1;
+        opacity: .7;
+        transition: all 250ms ease-in;
+    }

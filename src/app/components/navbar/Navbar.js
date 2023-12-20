@@ -32,6 +32,12 @@ const Navbar = () => {
                                 About Us
                             </Link>
                         </li>
+                        {/* login */}
+                        <li className="nav-item">
+                            <Link className={`${Styles.navLink} nav-link`} href="/login">
+                                <button className='btn btn-primary fs-5 fw-bold'>Login</button>
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>

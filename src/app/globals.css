@@ -9,10 +9,6 @@
   --dp-hover: #a05134cd;
 }
 
-html, body {
-  background-color: var(--dp-primary) !important;
-}
-
 * {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -25,7 +21,12 @@ html, body, main {
   margin: 0;
 }
 
-main {
+html {
+  background-color: var(--dp-dark) !important;
+}
+
+main, body {
+  background-color: var(--dp-primary) !important;
   border-radius: 10px;
   height: fit-content;
 }
@@ -37,6 +38,15 @@ h4 {
 p {
   font-size: 1.1rem;
   text-indent: 1em;
+}
+
+input {
+  margin: .2rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid var(--dp-accent);
+  border-radius: 2px;
+  color:var(--dp-secondary);
 }
 
 .frostedContainer {
