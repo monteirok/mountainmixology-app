@@ -5,11 +5,12 @@ import logoStyles from './components/logo/Logo.module.css'
 
 export default function Home() {
   return (
-    <div className={`${Styles.mainContainer} container text-center`}>
-      <h1 className={`${Styles.head} fw-bold`}>
-        COMING SOON
-      </h1>
-      {/* large logo */}
+    <div className={`${Styles.comingSoonContainer} container col-md-7 text-center`}>
+      <div className={`${Styles.frostedGlass} col-sm-7 col-md-7 mx-auto p-3`}>
+        <h1 className='m-auto fs-1 fst-italic fw-bold'>
+          COMING SOON!
+        </h1>
+      </div>
       <div className={`${logoStyles.logoContainer}`}>
         <LargeLogo />
       </div>

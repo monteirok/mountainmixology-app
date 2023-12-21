@@ -1,8 +1,16 @@
-.header {
-    color: var(--dp-secondary);
+.aboutUsContainer {
+    padding: 1.8rem;
 }
 
 .contentContainer {
-    padding-top: 2rem;
-    color: var(--dp-secondary);
+    padding: 1rem 0;
+    color: var(--dp-dark);
+}
+
+/* frosted glass container */
+.frostedGlass {
+    border-radius: 20px;
+    background: #17171705;
+    border: 3px solid #16161610;
+    backdrop-filter: blur(8px);
 }

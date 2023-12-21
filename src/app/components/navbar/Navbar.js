@@ -35,13 +35,13 @@ const Navbar = () => {
                         {/* about us */}
                         <li className='nav-item'>
                             <Link className={`${Styles.navLink} nav-link fw-bold`} href='/about'>
-                                About Us
+                                ABOUT US
                             </Link>
                         </li>
-                        {/* our menu */}
+                        {/* menu */}
                         <li className='nav-item'>
                             <Link className={`${Styles.navLink} nav-link fw-bold`} href='/menu'>
-                                Our Menu
+                                MENU
                             </Link>
                         </li>
                     </ul>

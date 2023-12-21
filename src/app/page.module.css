@@ -2,23 +2,22 @@
     color: var(--dp-secondary) !important;
 }
 
-.headerContainer {
-
-}
-    .head {
-        margin: 0;
-    }
-.subHead {
-    margin-top: -.1rem !important;
-    font-size: 1.1rem !important;
+.comingSoonContainer {
+    padding: 1rem;
 }
 
 .largeLogoContainer {
     display: flex;
     width: 100%;
     max-width: 100%;
-    /* height: auto; */
-    /* margin: auto; */
     background-color: rgb(104, 37, 37);
     border-radius: 40px;
+}
+
+/* frosted glass container */
+.frostedGlass {
+    border-radius: 20px;
+    background: #17171705;
+    border: 3px solid #16161610;
+    backdrop-filter: blur(8px);
 }

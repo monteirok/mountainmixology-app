@@ -4,10 +4,10 @@ import Styles from './page.module.css'
 
 export default function Page() {
   return (
-    <div className={`${Styles.aboutUsContainer}`}>
+    <div className={`${Styles.aboutUsContainer} ${Styles.frostedGlass}`}>
       {/* header */}
-      <h1 className={`${Styles.header} container fw-bold fst-u text-center text-decoration-underline`}>
-        About Us
+      <h1 className={`${Styles.header} container fw-bold text-center`}>
+        ABOUT US
       </h1>
       {/* content */}
       <div className={`${Styles.contentContainer} container`}>

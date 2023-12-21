@@ -1,8 +1,25 @@
-.header {
-    color: var(--dp-secondary);
+.menuContainer {
+    padding: 1.8rem;
 }
 
 .contentContainer {
-    padding-top: 2rem;
-    color: var(--dp-secondary);
+    padding: 1rem 0;
+    color: var(--dp-dark);
+}
+
+.drinksMenu {
+    width: 50%;
+    transition: all 350ms ease-out;
+}
+    .drinksMenu:hover {
+        scale: 1.025;
+        transition: all 350ms ease-in;
+    }
+
+/* frosted glass container */
+.frostedGlass {
+    border-radius: 20px;
+    background: #17171705;
+    border: 3px solid #16161610;
+    backdrop-filter: blur(8px);
 }
