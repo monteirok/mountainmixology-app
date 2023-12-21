@@ -4,7 +4,7 @@ import Styles from './page.module.css'
 export default function Page() {
   return (
     <div className={`${Styles.loginContainer} container`}>
-      <div className={`${Styles.formContainer} col-md-6`}>
+      <div className={`${Styles.formContainer} ${Styles.frostedGlass} col-md-6`}>
         <form className={`${Styles.form} text-center`} action="/login" method="post" autofocus>
           <input type="text" name="username" placeholder="Username" required />
           <br></br>

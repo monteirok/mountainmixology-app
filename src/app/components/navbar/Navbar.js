@@ -19,12 +19,6 @@ const Navbar = () => {
                 {/* nav items (links) */}
                 <div className='collapse navbar-collapse' id="navBarHamburger">
                     <ul className={`${Styles.navLinksContainer} navbar-nav ms-auto fw-bold`}>
-                        {/* home */}
-                        <li className="nav-item">
-                            <Link className={`${Styles.navLink} nav-link`} href="/">
-                                Home
-                            </Link>
-                        </li>
                         <div className={`${Styles.spacer}`}></div>
                         {/* about us */}
                         <li className="nav-item">
@@ -35,6 +29,7 @@ const Navbar = () => {
                         {/* login */}
                         <li className="nav-item">
                             <Link className={`${Styles.navLink} nav-link`} href="/login">
+                                {/* Login */}
                                 <button className='btn btn-primary fs-5 fw-bold'>Login</button>
                             </Link>
                         </li>
