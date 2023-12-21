@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className={`${Styles.navbarContainer} navbar navbar-dark navbar-expand-sm px-5 py-3`} id="navBarHamburger">
             <div className='container-fluid'>
                 {/* logo */}
-                <Link href="/">
+                <Link href="https://mountainmixology.ca">
                     <Logo />
                 </Link>
                 {/* navbar toggler (hamburger menu) */}
