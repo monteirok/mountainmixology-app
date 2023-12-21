@@ -15,8 +15,8 @@ const Footer = () => {
                     <Image
                         className={`${Styles.instagramIcon}`}
                         src="/images/instagram.png"
-                        width={50}
-                        height={50}
+                        width={27}
+                        height={27}
                         alt="instagram icon"
                     />
                 </Link>
