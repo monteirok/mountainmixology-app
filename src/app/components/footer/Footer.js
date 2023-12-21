@@ -18,7 +18,7 @@ const Footer = () => {
                         alt="instagram icon"
                     />
                 </a>
-            <a className='p-2 text-center fw-bold' href='mailto:contact@mountainmixology.ca' title='Email Us'>
+            <a className='p-2 text-center fw-bold' href='mailto:reservations@mountainmixology.ca' title='Email Us'>
                 <FontAwesomeIcon className={`${Styles.mailIcon}`} icon={faEnvelope} />
             </a>
             </div>            
