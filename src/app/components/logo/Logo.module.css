@@ -7,10 +7,6 @@
     border-radius: 40px;
     transition: all 180ms ease-out;
 }
-    .logoContainer:hover {
-        scale: 1.02;
-        transition: all 250ms ease-in;
-    }
 
 .largeLogo {
     max-width: 100%;

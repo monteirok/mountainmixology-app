@@ -10,7 +10,13 @@
     color: var(--dp-secondary);
 }
 
+    .footerLink {
+        padding: 1rem;
+    }
+
 .instagramIcon {
+    width: 3rem;
+    height: auto;
     transition: all 250ms ease-out;    
 }
     .instagramIcon:hover {
@@ -20,7 +26,7 @@
     }
 
 .mailIcon {
-    width: 2rem;
+    width: 3.2rem;
     color: var(--dp-secondary);
     transition: all 250ms ease-out;
 }

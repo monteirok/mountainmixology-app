@@ -1,0 +1,8 @@
+.header {
+    color: var(--dp-secondary);
+}
+
+.contentContainer {
+    padding-top: 2rem;
+    color: var(--dp-secondary);
+}
