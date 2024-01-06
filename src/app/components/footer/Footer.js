@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/Link'
+import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import 'bootstrap/dist/css/bootstrap.min.css'
