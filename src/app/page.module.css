@@ -1,9 +1,12 @@
 .mainContainer {
-    color: var(--dp-secondary) !important;
 }
 
 .comingSoonContainer {
     padding: 1rem;
+}
+
+.header {
+    color: var(--dp-secondary) !important;
 }
 
 .largeLogoContainer {
@@ -16,8 +19,9 @@
 
 /* frosted glass container */
 .frostedGlass {
+    width: 40%;
     border-radius: 20px;
-    background: #17171705;
-    border: 3px solid #16161610;
+    background: #ffffff08;
+    border: 2px solid #ffffff10;
     backdrop-filter: blur(8px);
 }

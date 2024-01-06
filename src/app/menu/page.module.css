@@ -1,25 +1,26 @@
-.menuContainer {
-    padding: 1.8rem;
-}
-
 .contentContainer {
-    padding: 1rem 0;
-    color: var(--dp-dark);
+    width: 65%;
+    padding: 2rem 0 4rem 0;
+    margin: auto;
 }
 
 .drinksMenu {
-    width: 50%;
-    transition: all 350ms ease-out;
+    padding: 2rem 0;
+    border-radius: 20px !important;
 }
-    .drinksMenu:hover {
-        scale: 1.025;
-        transition: all 350ms ease-in;
-    }
 
 /* frosted glass container */
 .frostedGlass {
     border-radius: 20px;
-    background: #17171705;
-    border: 3px solid #16161610;
+    background: #ffffff08;
+    border: 3px solid #ffffff0f;
     backdrop-filter: blur(8px);
+}
+
+.br {
+    width: 15%;
+    height: .6rem;
+    margin: -1rem auto 1rem auto;
+    background-color: var(--dp-secondary);
+    border-radius: 4px;
 }

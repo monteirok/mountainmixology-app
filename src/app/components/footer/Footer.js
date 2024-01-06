@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+import Link from 'next/Link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -11,7 +11,7 @@ const Footer = () => {
         <footer className={`${Styles.footerContainer}`}>
             <div className={`container`}>
                 {/* instagram icon */}
-                <Link className={`${Styles.footerLink} text-center fw-bold`} href='https://www.instagram.com/mountain.mixology/' target='_blank' title='Instagram'>
+                <Link className={`${Styles.footerLink} text-center fw-bold`} href='https://www.instagram.com/mountain.mixology/' target='_blank'>
                     <Image
                         className={`${Styles.instagramIcon}`}
                         src="/images/icons/instagram-icon.png"

@@ -1,19 +1,21 @@
 :root {
 /* dark palette */
-  --dp-primary: #1e2230;
+  --dp-primary: #c6c6c6;
+  --dp-primary-2: #ae1428c3;
   --dp-secondary: #C0C0C0;
-  --dp-dark: #15171f;
-  --dp-light: #FFFFFF;
-  --dp-accent: #a05134;
+  --dp-dark: #1e1e1e;
+  --dp-light: #dddddd;
+  --dp-light-hover: #b9b9b9;
+  --dp-accent: #9e573e;
   --dp-border: #ef825421;
-  --dp-hover: #a05134cd;
+  --dp-accent-hover: #88442c;
 }
 
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-image: url("../../public/images/backgrounds/canmore-bg.jpeg");
+  background-image: url("../../public/images/backgrounds/mountains/mount-2/mount-2-inverted-darkened-v2.png");
   background-color: var(--dp-dark);
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,6 +49,12 @@ main, body {
   user-select: none;
 }
 
+h1 {
+  font-size: 3rem !important;
+  margin-bottom: 1rem;
+  color: var(--dp-accent);
+}
+
 h4 {
   margin: 0;
 }
@@ -54,6 +62,10 @@ h4 {
 p {
   font-size: 1.1rem;
   text-indent: 1em;
+}
+
+div.navLink {
+  margin: 1rem !important;
 }
 
 input {

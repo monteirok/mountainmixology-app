@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={`${Styles.comingSoonContainer} container col-md-7 text-center`}>
       <div className={`${Styles.frostedGlass} col-sm-7 col-md-7 mx-auto p-3`}>
-        <h1 className='m-auto fs-1 fst-italic fw-bold'>
+        <h1 className={`${Styles.header} m-auto fs-1 fst-italic fw-bold`}>
           COMING SOON!
         </h1>
       </div>

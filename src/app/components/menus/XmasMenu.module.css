@@ -1,0 +1,8 @@
+.xmasMenu {
+    width: auto !important;
+    height: 50rem !important;
+    border: 5px solid var(--dp-primary-2);
+    border-top: 8px solid var(--dp-primary-2);
+    border-bottom: 8px solid var(--dp-primary-2);
+    border-radius: 10px;
+}
