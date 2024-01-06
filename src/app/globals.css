@@ -9,19 +9,10 @@
   --dp-hover: #a05134cd;
 }
 
-* {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-html, body, main {
+html, body {
   height: 100%;
   margin: 0;
-}
-
-html, body {
+  padding: 0;
   background-image: url("../../public/images/backgrounds/canmore-bg.jpeg");
   background-color: var(--dp-dark);
   background-repeat: no-repeat;
@@ -29,9 +20,31 @@ html, body {
   background-position: bottom;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+html, body, main {
+  height: 100%;
+  margin: 0;
+}
+
 main, body {
   border-radius: 10px;
   height: fit-content;
+}
+
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 h4 {
