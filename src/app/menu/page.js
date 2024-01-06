@@ -1,4 +1,4 @@
-import Link from 'next/Link'
+import Link from 'next/link'
 import LargeLogo2 from '../components/logo/LargeLogo2'
 import XmasMenu from '../components/menus/XmasMenu'
 import 'bootstrap/dist/css/bootstrap.min.css'
