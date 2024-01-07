@@ -1,4 +1,4 @@
-.menuContainer {
+.aboutUsContainer {
     padding: 1.8rem;
 }
 
@@ -6,15 +6,6 @@
     padding: 1rem 0;
     color: var(--dp-dark);
 }
-
-.drinksMenu {
-    width: 50%;
-    transition: all 350ms ease-out;
-}
-    .drinksMenu:hover {
-        scale: 1.025;
-        transition: all 350ms ease-in;
-    }
 
 /* frosted glass container */
 .frostedGlass {

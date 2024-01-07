@@ -16,18 +16,18 @@
     transition: all 250ms ease-out;    
 }
     .instagramIcon:hover {
-        scale: 1.06;
+        scale: 1.1;
         opacity: .7;
         transition: all 250ms ease-in;    
     }
 
 .mailIcon {
-    width: 3.4rem;
+    width: 3.2rem;
     color: var(--dp-secondary);
     transition: all 250ms ease-out;
 }
     .mailIcon:hover {
-        scale: 1.06;
+        scale: 1.1;
         opacity: .7;
         transition: all 250ms ease-in;
     }

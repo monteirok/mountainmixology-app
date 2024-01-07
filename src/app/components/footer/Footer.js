@@ -11,7 +11,7 @@ const Footer = () => {
         <footer className={`${Styles.footerContainer}`}>
             <div className={`container`}>
                 {/* instagram icon */}
-                <Link className={`${Styles.footerLink} text-center fw-bold`} href='https://www.instagram.com/mountain.mixology/' target='_blank'>
+                <Link className={`${Styles.footerLink} text-center fw-bold`} href='https://www.instagram.com/mountain.mixology/' target='_blank' title='Instagram'>
                     <Image
                         className={`${Styles.instagramIcon}`}
                         src="/images/icons/instagram-icon.png"

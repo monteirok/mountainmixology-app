@@ -1,27 +1,38 @@
-.mainContainer {
+.logoContainer {
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-.comingSoonContainer {
-    padding: 1rem;
+.comingSoonTextContainer {
+    margin: auto !important;
+    margin-bottom: 1.8rem !important;
+    padding: .6rem !important;
+    background-color: black !important;
+    border-radius: 8px !important;
 }
-
-.header {
-    color: var(--dp-secondary) !important;
-}
-
-.largeLogoContainer {
-    display: flex;
-    width: 100%;
-    max-width: 100%;
-    background-color: rgb(104, 37, 37);
-    border-radius: 40px;
-}
+    .comingSoonText {
+        color: var(--dp-secondary) !important;
+    }
 
 /* frosted glass container */
 .frostedGlass {
-    width: 40%;
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 0;
+    width: fit-content;
     border-radius: 20px;
-    background: #ffffff08;
-    border: 2px solid #ffffff10;
     backdrop-filter: blur(8px);
+}
+
+/* glow effect - WHITE */
+.whiteGlow {
+    -webkit-box-shadow:0px 0px 15px 8px rgba(217,217,217,0.7);
+    -moz-box-shadow: 0px 0px 15px 8px rgba(217,217,217,0.7);
+    box-shadow: 0px 0px 15px 8px rgba(217,217,217,0.7);
+}
+
+.comingSoonWhiteGlow {
+    -webkit-box-shadow:0px 0px 8px 2px rgba(217,217,217,0.4);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(217,217,217,0.4);
+    box-shadow: 0px 0px 8px 2px rgba(217,217,217,0.4);
 }

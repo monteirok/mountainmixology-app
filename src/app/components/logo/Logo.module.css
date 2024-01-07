@@ -1,12 +1,28 @@
-.logoContainer {
-    margin: auto;
-    padding: 1rem;
-    /* border: .22rem solid var(--dp-dark); */
-    border-radius: 40px;
-    transition: all 180ms ease-out;
+.largeLogo {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 60% !important;
+    height: auto;
+    border-radius: 20px;
 }
 
-.largeLogo {
-    max-width: 100%;
-    height: auto;
+.navLogo {
+    border: 2px solid var(--dp-secondary);
+    border-radius: 6px;
+    width: auto;
+    height: 75px;
+}
+
+/* glow effect - WHITE */
+.whiteGlow {
+    -webkit-box-shadow:0px 0px 15px 8px rgba(217,217,217,0.7);
+    -moz-box-shadow: 0px 0px 15px 8px rgba(217,217,217,0.7);
+    box-shadow: 0px 0px 15px 8px rgba(217,217,217,0.7);
+}
+
+/* glow effect - WHITE ... for Navbar logo */
+.whiteGlowNavLogo {
+    -webkit-box-shadow:0px 0px 8px 2px rgba(217,217,217,0.45);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(217,217,217,0.45);
+    box-shadow: 0px 0px 8px 2px rgba(217,217,217,0.45);
 }
